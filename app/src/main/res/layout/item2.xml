@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zongzhan.slidemenu.SlideMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    tools:context="com.zongzhan.androidslidemenu.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        tools:text="Two Menu" />
+    <ImageView
+        android:id="@+id/menu1"
+        android:layout_width="50dp"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:src="@android:drawable/ic_menu_share"/>
+    <ImageView
+        android:id="@+id/menu2"
+        android:layout_width="50dp"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:src="@android:drawable/ic_menu_delete" />
+
+</com.zongzhan.slidemenu.SlideMenuLayout>
