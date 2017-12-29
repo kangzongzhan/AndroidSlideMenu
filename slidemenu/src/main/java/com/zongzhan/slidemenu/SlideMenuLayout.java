@@ -205,6 +205,9 @@ public class SlideMenuLayout extends ViewGroup {
             int y = mScroller.getCurrY();
             scrollTo(x, y);
             invalidate();
+            if (mScroller.isFinished()) {
+                setState(SCROLL_STATE_IDLE);
+            }
         }
     }
 
